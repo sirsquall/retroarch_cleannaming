@@ -1,21 +1,13 @@
 import os
 import re
+import json
 from Levenshtein import distance
 import zlib
 
-# Configuration mapping extensions to DAT files
-config = {
-    'smc': 'libretro-database/metadat/No-Intro/Nintendo - Super Nintendo Entertainment System.dat',
-    'sfc': 'libretro-database/metadat/No-Intro/Nintendo - Super Nintendo Entertainment System.dat',
-    'gb': 'libretro-database/metadat/No-Intro/Nintendo - Game Boy.dat',
-    'gbc': 'libretro-database/metadat/No-Intro/Nintendo - Game Boy Color.dat',
-    'md': 'libretro-database/metadat/No-Intro/Sega - Mega Drive - Genesis.dat',
-    'nes': 'libretro-database/metadat/No-Intro/Nintendo - Nintendo Entertainment System.dat',
-    '32x': 'libretro-database/metadat/No-Intro/Sega - 32X.dat',
-    'n64': 'libretro-database/metadat/No-Intro/Nintendo - Nintendo 64.dat',
-    'v64': 'libretro-database/metadat/No-Intro/Nintendo - Nintendo 64.dat',
-    'nds': 'libretro-database/metadat/No-Intro/Nintendo - Nintendo DS.dat'
-}
+# Load configuration from JSON file
+config_path = os.path.join(os.path.dirname(os.path.realpath(__file__)), 'config.json')
+with open(config_path, 'r', encoding='utf-8') as config_file:
+    config = json.load(config_file)
 
 # Path to your ROM files
 roms_path = os.path.dirname(os.path.realpath(__file__))
