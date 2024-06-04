@@ -1,5 +1,5 @@
 
-# retroarch cleannaming
+# RetroArch CleanNaming
 This is a simple scripts, that help you to rename the ROMs with the right naming 
 
 # Requirement
