@@ -10,7 +10,7 @@ pip install python-Levenshtein
 You can update the config at the beginning of the scripts to add other extensions
 
 Just add the new extensions you want, and the libretro dataset you want to use
-'''
+```
 config = {
     'smc': 'libretro-database/metadat/No-Intro/Nintendo - Super Nintendo Entertainment System.dat',
     'sfc': 'libretro-database/metadat/No-Intro/Nintendo - Super Nintendo Entertainment System.dat',
@@ -23,7 +23,7 @@ config = {
     'v64': 'libretro-database/metadat/No-Intro/Nintendo - Nintendo 64.dat',
     'nds': 'libretro-database/metadat/No-Intro/Nintendo - Nintendo DS.dat'
 }
-'''
+```
 
 # Usage
 Put all the ROMs in the current directory, and run the scripts
