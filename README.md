@@ -3,8 +3,10 @@
 This is a simple scripts, that help you to rename the ROMs with the right naming 
 
 # Requirement
+```
 git clone https://github.com/libretro/libretro-database.git
 pip install python-Levenshtein
+```
 
 # Config
 You can update the config at the beginning of the scripts to add other extensions
@@ -29,7 +31,9 @@ config = {
 Put all the ROMs in the current directory, and run the scripts
 
 # Run
+```
 python3 rename_roms.py
+```
 
 # Results
 The ROMs will be renamed according to the database of libretro
