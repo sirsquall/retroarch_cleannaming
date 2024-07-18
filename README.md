@@ -35,6 +35,11 @@ Put all the ROMs in the current directory, and run the scripts
 ```
 python3 rename_roms.py
 ```
+# parameters
+You can change the matching distance by adding this parameter and change the value, more the number is higher more the approx will be
+```
+python3 rename_roms.py -distance=10
+```
 
 # Results
 The ROMs will be renamed according to the database of libretro
