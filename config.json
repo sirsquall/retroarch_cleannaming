@@ -3,11 +3,17 @@
   "sfc": "libretro-database/metadat/No-Intro/Nintendo - Super Nintendo Entertainment System.dat",
   "gb": "libretro-database/metadat/No-Intro/Nintendo - Game Boy.dat",
   "gbc": "libretro-database/metadat/No-Intro/Nintendo - Game Boy Color.dat",
+  "gba": "libretro-database/metadat/No-Intro/Nintendo - Game Boy Advance.dat",
   "md": "libretro-database/metadat/No-Intro/Sega - Mega Drive - Genesis.dat",
   "nes": "libretro-database/metadat/No-Intro/Nintendo - Nintendo Entertainment System.dat",
   "32x": "libretro-database/metadat/No-Intro/Sega - 32X.dat",
   "n64": "libretro-database/metadat/No-Intro/Nintendo - Nintendo 64.dat",
   "v64": "libretro-database/metadat/No-Intro/Nintendo - Nintendo 64.dat",
   "nds": "libretro-database/metadat/No-Intro/Nintendo - Nintendo DS.dat",
-  "iso": "libretro-database/metadat/No-Intro/Sony - PlayStation Portable.dat"
+  "iso": "libretro-database/metadat/No-Intro/Sony - PlayStation Portable.dat",
+  "gen": "libretro-database/metadat/No-Intro/Sega - Mega Drive - Genesis.dat",
+  "nds": "libretro-database/metadat/No-Intro//Nintendo - Nintendo DS.dat",
+  "chd": "libretro-database/metadat/developer/Sony - PlayStation.dat",
+  "sbi": "libretro-database/metadat/developer/Sony - PlayStation.dat",
+  "iso": "libretro-database/metadat/no-intro/Sony - PlayStation Portable.dat"
 }
